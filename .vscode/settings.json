@@ -1,0 +1,15 @@
+{
+	"python.formatting.provider": "black",
+	"editor.formatOnSave": true,
+	"python.formatting.blackArgs": [
+		"--skip-string-normalization",
+		"--line-length",
+		"80"
+	],
+	"[python]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		}
+	},
+	"python.analysis.typeCheckingMode": "basic"
+}
